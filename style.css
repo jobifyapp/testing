@@ -1,0 +1,86 @@
+/* JOBIFY.CSS 1.0 December 2024 by Emerson Reinhard */
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Extract from navigation.css */
+
+#navigation {
+    position: relative;
+    border-style: solid;
+    background-color: #151621;
+    border-color: #313442;
+    border: 0px;
+    border-bottom: 1px;
+    width: 100%;
+    filter: none !important;
+}
+
+#navigation-items {
+    z-index: 10;
+    margin: auto;
+    width: 100%;
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+#items-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+#left-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ol, ul, menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item-button {
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #9195ab;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .2s;
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
