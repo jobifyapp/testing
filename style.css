@@ -1,11 +1,25 @@
 /* JOBIFY.CSS 1.0 December 2024 by Emerson Reinhard */
 
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 body {
     margin: 0;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('static/fonts/Proxima-Nova-Regular.woff') format('woff'),
+         url('static/fonts/Proxima-Nova-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Extract from fontawesome.css */
+
+fa-nav {
+    margin-left: 10px;
 }
 
 /* Extract from navigation.css */
@@ -50,6 +64,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 20px;
 }
 
 ol, ul, menu {
@@ -67,12 +82,10 @@ ol, ul, menu {
 
 .item-button {
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 100%;
     line-height: 1.5rem;
     color: #9195ab;
     background-color: transparent;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
     border: none;
     outline: none;
     transition-property: all;
@@ -80,7 +93,38 @@ ol, ul, menu {
     transition-duration: .2s;
     align-items: center;
     display: flex;
-    margin-right: 40px;
     text-decoration: none;
+    gap: 1.25rem;
+}
+
+#items-right {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+#portal-buttons {
+    gap: 10px;
+    display: flex;
+}
+
+#portal-buttons button {
+    font-size: 100%;
+    border: none;
+    border-radius: .5rem;
+    height: 40px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-family: 'Proxima Nova';
+}
+
+#signup-button {
+    background-color: #467750;
+    color: #e0e8e2;
+}
+
+#login-button {
+    background-color: #89c07e;
+    color: #2a3f3f;
 }
 
