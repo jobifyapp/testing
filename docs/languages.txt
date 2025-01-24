@@ -1,0 +1,10 @@
+These language will be support on the website.
+- English (English)
+- French (Français)
+- Spanish (Español)
+- German (Deutsch)
+- Mandarin (普通话)
+- Arabic (عربي)
+- Portuguese (Português)
+- Korean (한국인)
+- Russian (Русский)
