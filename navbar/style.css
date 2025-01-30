@@ -1,0 +1,189 @@
+/* General body styling */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #323437; /* Background color for the page */
+}
+
+/* Header container styling */
+.main-header {
+    display: flex;
+    justify-content: center;
+    background-color: #191a1b;
+    padding: 20px 0; /* Padding top and bottom 20px */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px; /* Ensures header does not exceed 1280px */
+    margin-left: 148px;
+    margin-right: 148px;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 40px; /* Gap between the grouped items */
+}
+
+/* Group for Logo, Listings, and Resources */
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* 40px gap between logo, listings, and resources */
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* Navigation links */
+.nav-left a {
+    color: #7e8e95;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.nav-left a:hover {
+    color: #89c07e;
+}
+
+/* Contact link (now looking like text) */
+.contact-link {
+    color: #e3e3e5;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-link:hover {
+    color: #89c07e;
+}
+
+/* Action group for Contact and Sign Up/Login */
+.action-group {
+    display: flex;
+    gap: 40px; /* 40px gap between contact and sign up/login buttons */
+    align-items: center;
+}
+
+/* Navigation right buttons */
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+
+.pill-button {
+    background-color: #2c2e31;
+    color: #e3e3e5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Pill button shape */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pill-button:hover {
+    background-color: #89c07e;
+    color: #191a1b;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Modal is hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dimmed background */
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #323437;
+    padding: 20px;
+    border-radius: 10px;
+    width: 900px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/* Close button */
+.close {
+    color: #e3e3e5;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #89c07e;
+    text-decoration: none;
+}
+
+/* Modal description styling */
+.modal-description {
+    color: #e3e3e5;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.modal-description strong {
+    font-weight: bold;
+}
+
+.modal-description .red-text {
+    color: red;
+}
+
+/* Modal button grid */
+.modal-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    background-color: #2c2e31;
+    color: #e3e3e5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.modal-buttons button i {
+    margin-right: 10px;
+    font-size: 32px;
+}
+
+.modal-buttons button:hover {
+    background-color: #e3e3e5;
+    color: #89c07e;
+}
+
+.modal-buttons button:hover i {
+    color: #89c07e;
+}
