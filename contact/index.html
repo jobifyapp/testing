@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Options Modal</title>
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Font Awesome CDN for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>d
+<body>
     <!-- Header -->
     <header class="main-header">
         <div class="header-container">
@@ -77,15 +77,6 @@
             </div>
         </div>
     </header>
-    <header class="hero-section">
-        <h1>Jobify</h1>
-        <h3>Bridging talent to oppurtunity - with the click of a button.</h3>
-        <div class="nav-right" style="justify-content: center;">
-            <button class="pill-button log-in">View Local Listings</button>
-            <button class="pill-button log-in" style="height: 50px;">Read Helpful Resources</button>
-        </div>
-    </header>
-    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 120" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(243, 236, 234, 1)" offset="0%"></stop><stop stop-color="rgba(243, 236, 234, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,60L80,56C160,52,320,44,480,50C640,56,800,76,960,78C1120,80,1280,64,1440,52C1600,40,1760,32,1920,42C2080,52,2240,80,2400,92C2560,104,2720,100,2880,90C3040,80,3200,64,3360,54C3520,44,3680,40,3840,48C4000,56,4160,76,4320,84C4480,92,4640,88,4800,76C4960,64,5120,44,5280,34C5440,24,5600,24,5760,32C5920,40,6080,56,6240,70C6400,84,6560,96,6720,84C6880,72,7040,36,7200,28C7360,20,7520,40,7680,58C7840,76,8000,92,8160,84C8320,76,8480,44,8640,42C8800,40,8960,68,9120,84C9280,100,9440,104,9600,106C9760,108,9920,108,10080,104C10240,100,10400,92,10560,76C10720,60,10880,36,11040,32C11200,28,11360,44,11440,52L11520,60L11520,120L11440,120C11360,120,11200,120,11040,120C10880,120,10720,120,10560,120C10400,120,10240,120,10080,120C9920,120,9760,120,9600,120C9440,120,9280,120,9120,120C8960,120,8800,120,8640,120C8480,120,8320,120,8160,120C8000,120,7840,120,7680,120C7520,120,7360,120,7200,120C7040,120,6880,120,6720,120C6560,120,6400,120,6240,120C6080,120,5920,120,5760,120C5600,120,5440,120,5280,120C5120,120,4960,120,4800,120C4640,120,4480,120,4320,120C4160,120,4000,120,3840,120C3680,120,3520,120,3360,120C3200,120,3040,120,2880,120C2720,120,2560,120,2400,120C2240,120,2080,120,1920,120C1760,120,1600,120,1440,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path></svg>
 
     <!-- Modal -->
     <div id="myModal" class="modal">
@@ -109,6 +100,21 @@
         </div>
     </div>
 
-    <script src="../../assets/js/script.js"></script>
+    <div id="generalSupport" class="modal">
+        <div class="modal-content">
+            <h2>General Support</h2>
+            <p class="modal-description">
+                Need help or have a question? Use this category to contact our support team. If you are looking to contact a higher up, feel free to directly email <strong>emerson@jobify.com</strong>.
+                <br><br>
+                Please <span class="red-text">do not send</span> troll tickets, this may lead to repercussions beyond the website. In addition to this, do not boost your ticket, we will get back to you as soon as possible.
+            </p>
+            <label>SUBJECT</label><br>
+            <input type="text" placeholder="Please enter a subject...">
+            <label>MESSAGE</label><br>
+            <input type="text" placeholder="Please enter a message...">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

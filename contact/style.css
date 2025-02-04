@@ -3,15 +3,14 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    align-items: center;
-    background-color: #272934; /* Background color for the page */
+    background-color: #323437; /* Background color for the page */
 }
 
 /* Header container styling */
 .main-header {
     display: flex;
     justify-content: center;
-    background-color: #1f2129;
+    background-color: #191a1b;
     padding: 20px 0; /* Padding top and bottom 20px */
 }
 
@@ -41,10 +40,6 @@ body {
     height: 40px;
 }
 
-.logo:hover {
-    cursor: pointer;
-}
-
 /* Navigation links */
 .nav-left a {
     color: #7e8e95;
@@ -55,7 +50,7 @@ body {
 }
 
 .nav-left a:hover {
-    color: #e0e8e2;
+    color: #89c07e;
 }
 
 /* Contact link (now looking like text) */
@@ -67,7 +62,7 @@ body {
 }
 
 .contact-link:hover {
-    color: #e0e8e2;
+    color: #89c07e;
 }
 
 /* Action group for Contact and Sign Up/Login */
@@ -209,6 +204,24 @@ body {
     font-size: 32px;
 }
 
+.modal label {
+    text-transform: uppercase;
+    color: #e3e3e5;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.modal input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 24px;
+    background-color: #2d2f32;
+    margin: 8px 0;
+    padding: 8px;
+    color: #e3e3e5
+}
+
 .modal-buttons button:hover {
     background-color: #e3e3e5;
     color: #2c2e31;
@@ -234,10 +247,6 @@ body {
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
-}
-
-.dropdown-btn:hover {
-    color: #e0e8e2
 }
 
 .dropdown-icon {
@@ -284,23 +293,4 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.hero-section {
-    margin-top: 100px;
-    text-align: center;
-}
-
-.hero-section h1 {
-    color: #e3e3e5;
-    font-size: 72px;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.hero-section h3 {
-    color: #f0cd6e;
-    font-size: 24px;
-    font-weight: 600;
-    padding-top: 0;
 }
