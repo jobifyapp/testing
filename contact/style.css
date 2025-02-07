@@ -113,7 +113,7 @@ body {
 
 /* Modal Styles */
 .modal {
-    display: none; /* Modal is hidden by default */
+    display: none!important; /* Modal is hidden by default */
     position: fixed;
     z-index: 1; /* Sit on top */
     left: 0;
