@@ -3,6 +3,8 @@ const modal = document.getElementById("generalSupport");
 const openModalBtn = document.getElementById("openModalBtn");
 const closeBtn = document.getElementById("closeBtn");
 
+const openGenSupport = document.getElementById("openGeneralSupport")
+
 // Open the modal when the contact button is clicked
 openModalBtn.addEventListener("click", function (event) {
     event.preventDefault(); // Prevents any default action for the link
@@ -34,3 +36,8 @@ window.addEventListener("click", function (event) {
         dropdownMenu.classList.remove("show"); // Close dropdown if clicked outside
     }
 });
+
+openGenSupport.addEventListener("click", function (event) {
+    event.preventDefault()
+    modal.style.display = none
+})
